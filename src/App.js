@@ -44,6 +44,7 @@ function App() {
   <Route path="/Therapist/signUPTherapist"element= {<SignUpTherapist/>}/>
   <Route path="/Therapist/UpdateTherapist"element= {<UpdateTherapist/>}/>
   <Route path="/Therapist/DeleteTherapist"element= {<DeleteTherapist/>}/>
+  
   <Route path="/components/Interface"element= {<Interface/>}/>
   <Route path="/pages/Councilling"element= {<Counciling/>}/>
   <Route path="/pages/Treatment"element= {<Treatment/>}/>
