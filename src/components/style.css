@@ -1,0 +1,61 @@
+
+.backlogin{
+    background-image: url(../images/login_bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+}
+
+.form-body{
+    justify-content: center;
+    align-items: center;
+    /*text-align: left;*/
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+.image-bg{
+    background-image: url(../images/pexels-abdullah-ghatasheh-1631677.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    mix-blend-mode: normal;
+}
+.image-bg2{
+    background-image: url(../images/pexels-lumn-311039.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    mix-blend-mode: normal;
+}
