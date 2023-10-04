@@ -22,6 +22,9 @@ import UpdateTherapist from './Therapist/UpdateTherapist';
 
 import Counciling from './pages/Counciling';
 import Puzzel from './therapy/Puzzel';
+import Interface from './components/Interface';
+
+
 
 
 function App() {
@@ -44,9 +47,8 @@ function App() {
   <Route path="/Therapist/signUPTherapist"element= {<SignUpTherapist/>}/>
   <Route path="/Therapist/UpdateTherapist"element= {<UpdateTherapist/>}/>
   <Route path="/Therapist/DeleteTherapist"element= {<DeleteTherapist/>}/>
-  
-  <Route path="/components/Interface"element= {<Interface/>}/>
   <Route path="/pages/Councilling"element= {<Counciling/>}/>
+  <Route path="/components/Interface"element= {<Interface/>}/>
   <Route path="/pages/Treatment"element= {<Treatment/>}/>
   
  </Routes>
